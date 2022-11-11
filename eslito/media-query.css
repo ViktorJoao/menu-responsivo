@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) {
+    span#menu{
+        display: none;
+    }
+    footer > menu > ul > li{
+        display: inline-block;
+        
+        list-style: none;
+        margin-top: 20px;
+        text-align: right;
+        color: black;
+        background-color: transparent;
+        border: none;
+        width: auto;
+        
+        
+    }
+    menu > ul > li > a{
+        text-decoration: none;
+        color: black;
+        text-align: right;
+    }
+}
